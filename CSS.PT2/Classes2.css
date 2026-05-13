@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+  
+  
+span:first-of-type{
+    color: blueviolet;
+}
+
+
+.NOT :not(.EXCLUIDO){
+    color: blue;
+}
+
+.nth :nth-last-child(1){
+    color: rgb(255, 218, 9);
+}
+
+
+/*
+:first-child - primeiro filho / EX: Primeira li de ul / primeiro span de uma div
+:first-of-type - primeiro elemento de seu tipo entre os filhos do seu elemento pai.
+:last-child - ultimo filho
+:last-of-type - ultimo elemento de seu tipo entre os filhos de seu elemento pai 
+:not() - Estiliza os elementos, exceto o que está dentro da ()
+:nth-child() - seleciona o elemento baseado na sua posição. EX: :nth-child(3)
+:nth-last-child() - Seleciona o elemento baseado na sua posição, contando de trás para frente.

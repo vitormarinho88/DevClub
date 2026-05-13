@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a:active {
+    color: rgb(227, 49, 17);
+}
+
+p:hover {
+    color: rgba(109, 139, 0, 0.447);
+}
+
+input:checked {
+    width: 100px;
+    height: 100px;
+
+}
+
+input:focus {
+    border: 10px solid red;
+    outline: none;
+    border-radius: 30px;
+}
+
+.container{
+    height: 100px;
+    width: 100px;
+    background: rgb(78, 245, 17);
+}
+
+.container:empty{
+    background: rgb(0, 21, 255);
+}
+
+
+
+
+/* PSEUDO CLASSES
+
+:active - quando o elemento esta ativo, ou seja, está sendo pressionado 
+:visited - seleciona o link que foi visitado 
+:houver - quando o mouse passe em cima do elemento 
+:checked - usado em radio / checkbox / select 
+:disabled - elementos está habilitado
+:focus - é aplicado quando um elemento recebe foco, o que pode ocorrer quando o usuario seleciona o elemento 
+:read-only - seleciona input ou textarea que são apenas leitura 
+:empty - elemento que nao tem filho
+

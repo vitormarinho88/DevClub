@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 200vh;
+    height: 200vw;
+}
+
+
+.div-dad {
+    height: 350px;
+    width: 350px;
+    background-color: rgb(36, 128, 239);
+    position:relative;
+    margin: 200px;
+    top: 50px;
+    left: 30px;
+}
+
+.div-son{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(235, 0, 252);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+
+.div-mon{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(1, 246, 62);
+    position: fixed;
+    top: 200px;
+    bottom:40px;
+
+}
+
+
+
+
+
+
+/*POSITION 
+
+POSITION: STATIC (PADRÃO) - NÃO ACEITA VALORES DE TOP, BOTTOM, RIGHT E LEFT -- (MARGIN)
+POSITION: FIXED - FIXA O ELEMENTO NA TELA - PODE SE MOVER (TOP, BOTTOM, RIGHT E LEFT)
+POSITION: STICKY - AGE COMO UM ADESIVO, FIXA O ELEMENTO SO ONDE EU DETERMINAR - (UMA MISTURA ENTRE STATIC E FIXED)
+POSITION: RELATIVE - POSIÇÃO RELATIVA A POSIÇÃO INICIAL DELE 
+POSITION: ABSOLUTE - POSIÇÃO ABSOLUTA A ALGUM ELEMENTO OU A PAGINA
+                                            -- SE NÃO TIVER PAI/PAI FOR STATIC -> POSICIONA REFERENTE A PAGINA
+                                            --SE O PAI NÃO FOR STATIC -> POSICIONA REFERENTE AO PAI
+
+PROPRIEDADES:
+-TOP
+-BOTTOM
+-LEFT
+-RIGHT
+
+
+[static → padrão, não mexe.
+
+relative → fica no lugar, mas pode ser movido.
+
+absolute → posição exata, em relação ao pai.
+
+fixed → fica sempre no mesmo lugar da tela.
+
+sticky → acompanha até certo ponto e depois “cola”.]

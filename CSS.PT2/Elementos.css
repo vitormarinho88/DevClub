@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    border: 5px solid rgb(14, 78, 45);
+    color: rgb(28, 7, 212);
+}
+
+input::placeholder {
+
+    color: rgb(218, 19, 232);
+}
+
+p::first-line {
+    color: chocolate;
+}
+
+p {
+    color: black;
+}
+
+
+a{
+    margin: 150px;
+    color: darkslateblue;
+    position:absolute;
+}
+
+a::after{
+    content:"🧟​";
+}
+
+a::before{
+    content: "​😂";
+}
